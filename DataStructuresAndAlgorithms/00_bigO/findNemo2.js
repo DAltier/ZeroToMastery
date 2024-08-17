@@ -18,6 +18,7 @@ function findNemo2(fish) {
   for (let i = 0; i < fish.length; i++) {
     if (fish[i] === 'nemo') {
       console.log('Found NEMO!');
+      break;
     }
   }
 }

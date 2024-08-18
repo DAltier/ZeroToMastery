@@ -3,7 +3,8 @@ function printFirstItemThenFirstHalfThenSayHi100Times(items) {
 
   var middleIndex = Math.floor(items.length / 2);
   var index = 0;
-  While (index < middleIndex) {
+
+  while (index < middleIndex) {
     console.log(items[index]);
     index++;
   }
